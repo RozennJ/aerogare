@@ -4,19 +4,23 @@ package engine;
  * Generateur de scenario
  */
 public abstract class Plan {
-    private int nbScenario;
-
-    public int getNbScenario(){
-        return nbScenario;
+    private int nbReplique;
+    public int getNbReplique(){
+        return nbReplique;
     }
 
-    private int nbScenarioActuel;
-    public int getNbScenarioActuel(){
-        return nbScenarioActuel;
+    protected SimEngine engine;
+    public SimEngine getEngine() {
+        return engine;
     }
 
-    public Plan(int nbScenario){
-        this.nbScenario = nbScenario;
+    //private int nbRepliqueActuel;
+    //public int getNbRepliqueActuel(){
+        //return nbRepliqueActuel;
+    //}
+
+    public Plan(int nbReplique){
+        this.nbReplique = nbReplique;
     }
 
     //cette m�thode permet de d�finir chaque sc�nario � ex�cuter

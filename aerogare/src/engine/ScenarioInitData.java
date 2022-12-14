@@ -5,8 +5,8 @@ import enstabretagne.base.time.LogicalDateTime;
 public class ScenarioInitData extends InitData{
     int graine;
 
-    LogicalDateTime debut;
-    LogicalDateTime fin;
+    private LogicalDateTime debut;
+    private LogicalDateTime fin;
 
     public ScenarioInitData(String id) {
         super(id);

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="TD_1_base_common">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../TD_1_base_common" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../TD_1_base_common/src" />
+    </SOURCES>
+  </library>
+</component>
